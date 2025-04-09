@@ -11,15 +11,35 @@
       crossorigin="anonymous"
     />
     <title>JS Fundamentals</title>
-
-    <script src="./main.js"></script>
   </head>
   <body>
-    <h1>JS Fundamentals</h1>
-    <div>
-      <img src="/img/white_lamp.png" alt="" id="lightOff" />
-      <button id="buttonOnAndOff">accendi</button class="btn btn-primary">
-      <img id="lightOn" src="./img/yellow_lamp.png" alt="" class="d-none" />
-    </div>
+    <header><h1>JS Fundamentals</h1></header>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div>
+              <img
+                id="lightOff"
+                class="d-inline-block"
+                src="/img/white_lamp.png"
+                alt=""
+              />
+              <img
+                id="lightOn"
+                src="./img/yellow_lamp.png"
+                alt=""
+                class="d-none"
+              />
+              <button id="buttonOnAndOff" class="btn btn-primary">
+                ON/OFF
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./main.js"></script>
   </body>
 </html>
